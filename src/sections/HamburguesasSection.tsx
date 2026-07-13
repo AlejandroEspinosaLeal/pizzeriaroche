@@ -44,12 +44,12 @@ export default function HamburguesasSection() {
         >
           {/* Header */}
           <div className="flex items-center justify-between mb-6">
-            <h3
+            <h2
               className="font-display font-bold text-[#2C2420]"
               style={{ fontSize: 'clamp(1.3rem, 3.5vw, 1.8rem)' }}
             >
               Hamburguesas de Buey
-            </h3>
+            </h2>
             <span className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#D4A84B] text-white font-body font-bold text-sm shadow-md">
               13,00 €
             </span>

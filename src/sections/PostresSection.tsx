@@ -20,12 +20,12 @@ export default function PostresSection() {
         >
           <div className="flex items-center justify-center gap-3 mb-6 flex-wrap">
             <CakeSlice size={28} className="text-[#8B5E3C]" />
-            <h3
+            <h2
               className="font-display font-bold text-[#2C2420]"
               style={{ fontSize: 'clamp(1.3rem, 3.5vw, 1.8rem)' }}
             >
               Postres
-            </h3>
+            </h2>
             <AllergenBadges allergens={[3, 7]} className="ml-1" />
             <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#D4A84B] text-white font-body font-bold text-sm shadow-md ml-2">
               4,50 €

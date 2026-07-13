@@ -69,12 +69,12 @@ export default function PizzasSection() {
         >
           <div className="flex items-center gap-3 mb-2 flex-wrap">
             <Pizza size={32} className="text-[#8B5E3C] opacity-30" />
-            <h3
+            <h2
               className="font-display font-bold text-[#2C2420]"
               style={{ fontSize: 'clamp(1.5rem, 4vw, 2rem)' }}
             >
               Las Pizzas
-            </h3>
+            </h2>
           </div>
 
           <p className="font-body text-sm italic text-[#6B6057] mb-1">
