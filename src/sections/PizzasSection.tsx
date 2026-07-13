@@ -60,7 +60,7 @@ export default function PizzasSection() {
   }, [])
 
   return (
-    <section className="bg-[#F5F0E8] pb-16 md:pb-20 px-6">
+    <section id="pizzas" className="bg-[#F5F0E8] pb-16 md:pb-20 px-6 scroll-mt-32">
       <div className="max-w-[1100px] mx-auto">
         <div
           ref={cardRef}

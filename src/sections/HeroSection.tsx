@@ -12,8 +12,8 @@ export default function HeroSection() {
 
   useEffect(() => {
     const tl = gsap.timeline({ delay: 0.2 })
-    tl.to(titleRef.current, { opacity: 1, y: 0, duration: 0.8, ease: 'power2.out' })
-      .to(subtitleRef.current, { opacity: 1, y: 0, duration: 0.8, ease: 'power2.out' }, '-=0.5')
+    tl.fromTo(titleRef.current, { opacity: 0, y: 25 }, { opacity: 1, y: 0, duration: 0.8, ease: 'power2.out' })
+      .fromTo(subtitleRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.8, ease: 'power2.out' }, '-=0.5')
       .to(taglineRef.current, { opacity: 1, y: 0, duration: 0.8, ease: 'power2.out' }, '-=0.5')
       .to(ctaRef.current, { opacity: 1, scale: 1, duration: 0.6, ease: 'back.out(1.7)' }, '-=0.3')
       .to(scrollRef.current, { opacity: 1, duration: 0.5 }, '-=0.2')
@@ -64,7 +64,7 @@ export default function HeroSection() {
 
         <h1
           ref={titleRef}
-          className="font-display font-bold text-white opacity-0 translate-y-[30px]"
+          className="font-display font-bold text-white transition-all duration-700"
           style={{ fontSize: 'clamp(4rem, 12vw, 8rem)', letterSpacing: '0.06em', textShadow: '0 4px 30px rgba(0,0,0,0.3)' }}
         >
           ROCHE
@@ -72,7 +72,7 @@ export default function HeroSection() {
         </h1>
         <p
           ref={subtitleRef}
-          className="font-body uppercase text-white/85 opacity-0 translate-y-[30px] mt-2"
+          className="font-body uppercase text-white/90 tracking-[0.3em] mt-2 font-semibold"
           style={{ fontSize: 'clamp(1rem, 2.5vw, 1.5rem)', letterSpacing: '0.3em' }}
         >
           Pizzeria · Parrilla

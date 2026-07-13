@@ -3,6 +3,7 @@ import Lenis from 'lenis'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Navbar from './components/Navbar'
+import MobileCategoryNav from './components/MobileCategoryNav'
 import PhoneFAB from './components/PhoneFAB'
 import Footer from './components/Footer'
 import HeroSection from './sections/HeroSection'
@@ -54,6 +55,7 @@ export default function App() {
       <Navbar />
       <main>
         <HeroSection />
+        <MobileCategoryNav />
         <EntrantesSection />
         <PizzasSection />
         <PastaSection />

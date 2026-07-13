@@ -67,22 +67,40 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="absolute top-[72px] left-0 right-0 bg-[#F5F0E8] border-b border-[rgba(139,94,60,0.15)] md:hidden py-4 px-6 flex flex-col gap-4 shadow-lg">
-          <button onClick={() => scrollTo('carta')} className="font-body text-sm font-medium uppercase tracking-[0.04em] text-[#2C2420] text-left">
-            Carta
+        <div className="absolute top-[72px] left-0 right-0 bg-[#F5F0E8] border-b border-[rgba(139,94,60,0.2)] md:hidden py-4 px-6 grid grid-cols-2 gap-3 shadow-xl">
+          <button onClick={() => scrollTo('carta')} className="font-body text-sm font-bold uppercase tracking-[0.04em] text-[#2C2420] text-left py-1.5 border-b border-black/5">
+            🔥 Toda la Carta
           </button>
-          <button onClick={() => scrollTo('alergenos')} className="font-body text-sm font-medium uppercase tracking-[0.04em] text-[#2C2420] text-left">
-            Alérgenos
+          <button onClick={() => scrollTo('pizzas')} className="font-body text-sm font-semibold uppercase tracking-[0.04em] text-[#2C2420] text-left py-1.5 border-b border-black/5">
+            🍕 Pizzas
           </button>
-          <button onClick={() => scrollTo('ubicacion')} className="font-body text-sm font-medium uppercase tracking-[0.04em] text-[#2C2420] text-left">
-            Ubicación
+          <button onClick={() => scrollTo('carnes')} className="font-body text-sm font-semibold uppercase tracking-[0.04em] text-[#2C2420] text-left py-1.5 border-b border-black/5">
+            🥩 Carnes
+          </button>
+          <button onClick={() => scrollTo('pasta')} className="font-body text-sm font-semibold uppercase tracking-[0.04em] text-[#2C2420] text-left py-1.5 border-b border-black/5">
+            🍝 Pastas & Lasañas
+          </button>
+          <button onClick={() => scrollTo('entrantes')} className="font-body text-sm font-semibold uppercase tracking-[0.04em] text-[#2C2420] text-left py-1.5 border-b border-black/5">
+            🥗 Entrantes
+          </button>
+          <button onClick={() => scrollTo('hamburguesas')} className="font-body text-sm font-semibold uppercase tracking-[0.04em] text-[#2C2420] text-left py-1.5 border-b border-black/5">
+            🍔 Hamburguesas
+          </button>
+          <button onClick={() => scrollTo('postres')} className="font-body text-sm font-semibold uppercase tracking-[0.04em] text-[#2C2420] text-left py-1.5 border-b border-black/5">
+            🍰 Postres
+          </button>
+          <button onClick={() => scrollTo('alergenos')} className="font-body text-sm font-semibold uppercase tracking-[0.04em] text-[#2C2420] text-left py-1.5 border-b border-black/5">
+            ⚠️ Alérgenos
+          </button>
+          <button onClick={() => scrollTo('ubicacion')} className="font-body text-sm font-semibold uppercase tracking-[0.04em] text-[#2C2420] text-left py-1.5 col-span-2">
+            📍 Dónde Estamos (Mapa)
           </button>
           <a
             href="tel:+34647338806"
-            className="flex items-center gap-2 font-body text-sm font-medium uppercase tracking-[0.04em] text-[#C45B3F]"
+            className="col-span-2 flex items-center justify-center gap-2 font-body text-sm font-bold uppercase tracking-[0.04em] text-white bg-[#C45B3F] py-2.5 rounded-lg mt-1"
           >
             <Phone size={16} />
-            647 338 806
+            Llamar al 647 338 806
           </a>
         </div>
       )}

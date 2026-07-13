@@ -22,7 +22,7 @@ const ensaladas = [
 export default function EntrantesSection() {
   return (
     <section id="carta" className="bg-[#F5F0E8] py-16 md:py-20 px-6">
-      <div className="max-w-[1100px] mx-auto">
+      <div id="entrantes" className="max-w-[1100px] mx-auto scroll-mt-36">
         <SectionHeader title="Nuestra Carta" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
