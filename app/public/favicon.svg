@@ -1,0 +1,30 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo con esquinas redondeadas -->
+  <rect width="128" height="128" rx="28" fill="#2C2420" />
+  <!-- Borde decorativo fino -->
+  <rect x="5" y="5" width="118" height="118" rx="24" stroke="#D4A84B" stroke-width="2.5" opacity="0.6" />
+
+  <!-- Espátula / Pala cruzada 1 -->
+  <path d="M26 88 L88 26" stroke="#F5F0E8" stroke-width="7" stroke-linecap="round" />
+  <!-- Tenedor / Utensilio cruzado 2 -->
+  <path d="M88 88 L26 26" stroke="#F5F0E8" stroke-width="7" stroke-linecap="round" />
+
+  <!-- Cabezales redondos / Pala -->
+  <circle cx="26" cy="26" r="9" fill="none" stroke="#F5F0E8" stroke-width="5.5" />
+  <circle cx="88" cy="26" r="9" fill="none" stroke="#F5F0E8" stroke-width="5.5" />
+
+  <!-- Mangos inferiores -->
+  <rect x="21" y="81" width="10" height="14" rx="4" transform="rotate(-45 26 88)" fill="#F5F0E8" />
+  <rect x="83" y="81" width="10" height="14" rx="4" transform="rotate(45 88 88)" fill="#F5F0E8" />
+
+  <!-- Letra R Superior -->
+  <text x="57" y="38" text-anchor="middle" fill="#F5F0E8" font-family="'Playfair Display', serif, sans-serif" font-weight="800" font-size="28">R</text>
+
+  <!-- Letra P Inferior -->
+  <text x="57" y="100" text-anchor="middle" fill="#F5F0E8" font-family="'Playfair Display', serif, sans-serif" font-weight="800" font-size="28">P</text>
+
+  <!-- Línea Tricolor Bandera Italiana abajo -->
+  <rect x="30" y="109" width="22" height="5" rx="2.5" fill="#009246" />
+  <rect x="53" y="109" width="22" height="5" rx="2.5" fill="#F5F0E8" />
+  <rect x="76" y="109" width="22" height="5" rx="2.5" fill="#CE2B37" />
+</svg>

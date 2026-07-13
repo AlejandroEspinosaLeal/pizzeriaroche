@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 38 33% 94%;
+    --foreground: 24 18% 15%;
+    --card: 36 30% 90%;
+    --card-foreground: 24 18% 15%;
+    --popover: 38 33% 94%;
+    --popover-foreground: 24 18% 15%;
+    --primary: 13 54% 51%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 83 21% 45%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 36 25% 88%;
+    --muted-foreground: 24 10% 38%;
+    --accent: 42 60% 56%;
+    --accent-foreground: 24 18% 15%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 20% 82%;
+    --input: 30 20% 82%;
+    --ring: 13 54% 51%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F0E8;
+    color: #2C2420;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(1);
+      opacity: 0.4;
+    }
+    100% {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+  }
+
+  @keyframes bounce-gentle {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(8px);
+    }
+  }
+
+  .animate-pulse-ring {
+    animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .animate-bounce-gentle {
+    animation: bounce-gentle 2s ease-in-out infinite;
+  }
+}
