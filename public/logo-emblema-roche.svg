@@ -1,0 +1,20 @@
+<svg width="200" height="200" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Espátula / Pala de Pizza Cruzada -->
+  <path d="M20 78 L78 20" stroke="#F5F0E8" stroke-width="5.5" stroke-linecap="round"/>
+  <!-- Utensilio Cruzado -->
+  <path d="M78 78 L20 20" stroke="#F5F0E8" stroke-width="5.5" stroke-linecap="round"/>
+  <!-- Cabezales redondos -->
+  <circle cx="20" cy="20" r="8" fill="none" stroke="#F5F0E8" stroke-width="4.5"/>
+  <circle cx="78" cy="20" r="8" fill="none" stroke="#F5F0E8" stroke-width="4.5"/>
+  <!-- Mangos inferiores -->
+  <rect x="16" y="73" width="8" height="12" rx="3" transform="rotate(-45 20 78)" fill="#F5F0E8"/>
+  <rect x="74" y="73" width="8" height="12" rx="3" transform="rotate(45 78 78)" fill="#F5F0E8"/>
+  <!-- Letra R Superior -->
+  <text x="49" y="31" text-anchor="middle" fill="#F5F0E8" font-family="'Playfair Display', serif" font-weight="800" font-size="24">R</text>
+  <!-- Letra P Inferior -->
+  <text x="49" y="88" text-anchor="middle" fill="#F5F0E8" font-family="'Playfair Display', serif" font-weight="800" font-size="24">P</text>
+  <!-- Detalle lateral izquierdo -->
+  <path d="M10 55 L32 33" stroke="#D5C7B8" stroke-width="2.5" stroke-dasharray="4 3" stroke-linecap="round"/>
+  <!-- Detalle lateral derecho -->
+  <path d="M68 33 L90 55" stroke="#D5C7B8" stroke-width="2.5" stroke-dasharray="4 3" stroke-linecap="round"/>
+</svg>
