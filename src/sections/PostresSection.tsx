@@ -12,7 +12,7 @@ const postres = [
 
 export default function PostresSection() {
   return (
-    <section id="postres" className="bg-[#F5F0E8] pb-16 md:pb-20 px-6 scroll-mt-32">
+    <section id="postres" className="bg-[#F5F0E8] pb-16 md:pb-20 px-4 sm:px-6 scroll-mt-32">
       <div className="max-w-[700px] mx-auto">
         <MenuCard
           bgClass=""

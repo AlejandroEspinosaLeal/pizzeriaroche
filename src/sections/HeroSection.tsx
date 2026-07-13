@@ -65,22 +65,22 @@ export default function HeroSection() {
         <h1
           ref={titleRef}
           className="font-display font-bold text-white transition-all duration-700"
-          style={{ fontSize: 'clamp(4rem, 12vw, 8rem)', letterSpacing: '0.06em', textShadow: '0 4px 30px rgba(0,0,0,0.3)' }}
+          style={{ fontSize: 'clamp(3.3rem, 13vw, 8rem)', letterSpacing: '0.06em', textShadow: '0 4px 30px rgba(0,0,0,0.3)' }}
         >
           ROCHE
           <span className="sr-only"> Pizzería Parrilla — Conil de la Frontera, Urbanización Roche, Cádiz</span>
         </h1>
         <p
           ref={subtitleRef}
-          className="font-body uppercase text-white/90 tracking-[0.3em] mt-2 font-semibold"
-          style={{ fontSize: 'clamp(1rem, 2.5vw, 1.5rem)', letterSpacing: '0.3em' }}
+          className="font-body uppercase text-white/90 tracking-[0.25em] sm:tracking-[0.3em] mt-2 font-semibold"
+          style={{ fontSize: 'clamp(0.9rem, 2.2vw, 1.4rem)' }}
         >
           Pizzeria · Parrilla
         </p>
         <p
           ref={taglineRef}
-          className="font-body text-white/90 opacity-0 translate-y-[30px] mt-6 max-w-[600px] mx-auto"
-          style={{ fontSize: 'clamp(1.1rem, 2.5vw, 1.5rem)' }}
+          className="font-body text-white/90 opacity-0 translate-y-[30px] mt-5 sm:mt-6 max-w-[600px] mx-auto px-2 leading-relaxed"
+          style={{ fontSize: 'clamp(1rem, 2.2vw, 1.4rem)' }}
         >
           La auténtica cocina italiana con el mejor sabor de la parrilla
         </p>

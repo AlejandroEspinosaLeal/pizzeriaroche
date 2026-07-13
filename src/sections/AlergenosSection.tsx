@@ -6,7 +6,7 @@ export default function AlergenosSection() {
   const listaAlergenos = Object.values(ALLERGENS)
 
   return (
-    <section id="alergenos" className="bg-[#F5F0E8] py-16 md:py-24 px-6 scroll-mt-20">
+    <section id="alergenos" className="bg-[#F5F0E8] py-16 md:py-24 px-4 sm:px-6 scroll-mt-20">
       <div className="max-w-[1100px] mx-auto">
         <SectionHeader title="Alérgenos de Nuestra Carta" />
 

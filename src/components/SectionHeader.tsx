@@ -31,7 +31,7 @@ export default function SectionHeader({ title, subtitle }: SectionHeaderProps) {
   }, [])
 
   return (
-    <div ref={ref} className="text-center mb-12">
+    <div ref={ref} className="text-center mb-8 md:mb-12">
       <h2
         className="font-display font-bold text-[#2C2420]"
         style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)' }}

@@ -37,7 +37,7 @@ export default function MenuCard({ children, className = '', bgClass = '', style
   return (
     <div
       ref={cardRef}
-      className={`rounded-xl p-7 md:p-8 hover:-translate-y-1 transition-all duration-300 hover:shadow-[0_12px_40px_rgba(44,36,32,0.08)] ${bgClass} ${className}`}
+      className={`rounded-2xl p-5 sm:p-7 md:p-8 hover:-translate-y-1 transition-all duration-300 hover:shadow-[0_12px_40px_rgba(44,36,32,0.08)] ${bgClass} ${className}`}
       style={style}
     >
       {children}

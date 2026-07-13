@@ -3,7 +3,6 @@ import Lenis from 'lenis'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Navbar from './components/Navbar'
-import PhoneFAB from './components/PhoneFAB'
 import Footer from './components/Footer'
 import HeroSection from './sections/HeroSection'
 import EntrantesSection from './sections/EntrantesSection'
@@ -14,7 +13,6 @@ import LocationMapSection from './sections/LocationMapSection'
 import HamburguesasSection from './sections/HamburguesasSection'
 import PostresSection from './sections/PostresSection'
 import AlergenosSection from './sections/AlergenosSection'
-import PhoneCTASection from './sections/PhoneCTASection'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -62,10 +60,8 @@ export default function App() {
         <PostresSection />
         <AlergenosSection />
         <LocationMapSection />
-        <PhoneCTASection />
       </main>
       <Footer />
-      <PhoneFAB />
     </div>
   )
 }
