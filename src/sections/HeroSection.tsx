@@ -31,6 +31,8 @@ export default function HeroSection() {
           alt="Pizza artesanal en horno de leña"
           className="w-full h-full object-cover"
           loading="eager"
+          fetchPriority="high"
+          decoding="sync"
         />
         <div
           className="absolute inset-0"
