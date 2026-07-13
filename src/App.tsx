@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import Lenis from 'lenis'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { Analytics } from '@vercel/analytics/react'
 import Navbar from './components/Navbar'
 import PhoneFAB from './components/PhoneFAB'
 import Footer from './components/Footer'
@@ -66,6 +67,7 @@ export default function App() {
       </main>
       <Footer />
       <PhoneFAB />
+      <Analytics />
     </div>
   )
 }
