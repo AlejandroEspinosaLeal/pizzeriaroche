@@ -25,6 +25,29 @@ export default function EntrantesSection() {
       <div id="entrantes" className="max-w-[1100px] mx-auto scroll-mt-36">
         <SectionHeader title="Nuestra Carta" />
 
+        {/* Navegación elegante por categorías integrada en la carta */}
+        <div className="flex items-center justify-center gap-2 flex-wrap max-w-[850px] mx-auto -mt-6 mb-12">
+          {[
+            { label: '🥗 Entrantes', id: 'entrantes' },
+            { label: '🍕 Pizzas', id: 'pizzas' },
+            { label: '🍝 Pastas & Lasañas', id: 'pasta' },
+            { label: '🥩 Carnes a la Parrilla', id: 'carnes' },
+            { label: '🍔 Hamburguesas', id: 'hamburguesas' },
+            { label: '🍰 Postres', id: 'postres' },
+          ].map((item) => (
+            <button
+              key={item.id}
+              onClick={() => {
+                const el = document.getElementById(item.id)
+                if (el) el.scrollIntoView({ behavior: 'smooth' })
+              }}
+              className="px-4 py-2 rounded-full bg-[#EDE4D3] hover:bg-[#C45B3F] hover:text-white text-[#2C2420] border border-[rgba(139,94,60,0.22)] font-body text-xs md:text-sm font-semibold uppercase tracking-wider transition-all duration-300 shadow-sm hover:shadow-md"
+            >
+              {item.label}
+            </button>
+          ))}
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Entrantes */}
           <MenuCard bgClass="bg-[#EDE4D3]">

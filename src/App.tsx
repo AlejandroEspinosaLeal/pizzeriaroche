@@ -55,7 +55,6 @@ export default function App() {
       <Navbar />
       <main>
         <HeroSection />
-        <MobileCategoryNav />
         <EntrantesSection />
         <PizzasSection />
         <PastaSection />
