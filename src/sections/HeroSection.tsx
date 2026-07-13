@@ -84,20 +84,17 @@ export default function HeroSection() {
         >
           La auténtica cocina italiana con el mejor sabor de la parrilla
         </p>
-        <p className="font-body text-white/80 text-sm md:text-base mt-3 tracking-wide">
-          Av. Bélgica · Urbanización Roche · 11149 Conil de la Frontera, Cádiz
-        </p>
 
         {/* CTA Phone */}
         <a
           ref={ctaRef}
           href="tel:+34647338806"
-          className="inline-flex items-center gap-3 mt-10 px-12 py-4 rounded-full text-white font-body font-semibold uppercase tracking-[0.04em] opacity-0 scale-90 hover:scale-105 transition-all duration-300 shadow-[0_8px_30px_rgba(196,91,63,0.4)]"
-          style={{ background: 'linear-gradient(135deg, #C45B3F, #A8492F)', fontSize: '1.1rem' }}
+          className="inline-flex items-center justify-center gap-2 sm:gap-3 mt-8 sm:mt-10 px-6 sm:px-10 py-3.5 sm:py-4 rounded-full text-white font-body transition-all duration-300 shadow-[0_8px_30px_rgba(196,91,63,0.4)] whitespace-nowrap hover:scale-105 max-w-full"
+          style={{ background: 'linear-gradient(135deg, #C45B3F, #A8492F)' }}
         >
-          <Phone size={22} />
-          <span>647 338 806</span>
-          <span className="text-white/80 text-sm normal-case tracking-normal">— Reservar o Pedir</span>
+          <Phone className="w-5 h-5 shrink-0" />
+          <span className="text-base sm:text-xl font-bold whitespace-nowrap tracking-wide">647 338 806</span>
+          <span className="text-white/90 text-xs sm:text-sm font-normal whitespace-nowrap">— Reservar o Pedir</span>
         </a>
       </div>
 
