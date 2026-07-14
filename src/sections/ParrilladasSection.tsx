@@ -3,7 +3,7 @@ import { Flame } from 'lucide-react'
 
 const parrilladas = [
   { name: 'PARRILLADA DE CERDO IBÉRICO', price: '34,50 €' },
-  { name: 'PARRILLADA DE VERDURAS', desc: 'berenjena, calabacín, champiñón, tomate, espárrago, zanahoria, cebolla, pimiento y patata', price: '15,50 €' },
+  { name: 'PARRILLADA DE VERDURAS', desc: 'berenjena, calabacín, champiñón, tomate, espárrago, cebolla, pimiento y patata', price: '15,50 €' },
 ]
 
 export default function ParrilladasSection() {

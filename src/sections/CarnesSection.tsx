@@ -23,7 +23,7 @@ const parrilladas = [
   { name: 'PARRILLADA DE CERDO IBÉRICO', price: '34,50 €', allergens: [] },
   {
     name: 'PARRILLADA DE VERDURAS',
-    desc: 'berenjena, calabacín, champiñón, tomate, espárrago, zanahoria, cebolla, pimiento y patata',
+    desc: 'berenjena, calabacín, champiñón, tomate, espárrago, cebolla, pimiento y patata',
     price: '15,50 €',
     allergens: []
   },
