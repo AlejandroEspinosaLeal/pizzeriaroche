@@ -4,7 +4,7 @@ import { AllergenBadges } from '../components/AllergenBadge'
 
 const ternera = [
   { name: 'ENTRECOT DE TERNERA', price: '18,00 €', allergens: [] },
-  { name: 'TECLAS', desc: 'tomate, cebolla, pimiento y beicon', price: '15,00 €', allergens: [] },
+  { name: 'BROCHETA', desc: 'tomate, cebolla, pimiento y beicon', price: '15,00 €', allergens: [] },
 ]
 
 const cerdo = [
