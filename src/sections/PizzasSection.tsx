@@ -21,7 +21,7 @@ const pizzas = [
   { name: 'TUNA', desc: 'atún y cebolla', price: '13,00 €', allergens: [1, 4, 7] },
   { name: 'CUATRO QUESOS', desc: 'parmesano, roquefort y emmental', price: '13,50 €', allergens: [1, 7] },
   { name: 'PRESIDENTE', desc: 'chorizo picante', price: '13,00 €', allergens: [1, 7] },
-  { name: 'PRESIDENTE ESPECIAL', desc: 'chorizo picante y cebolla roja', price: '13,50 €', allergens: [1, 7] },
+  { name: 'PRESIDENTE ESPECIAL', desc: 'chorizo picante y cebolla', price: '13,50 €', allergens: [1, 7] },
   { name: 'CUATRO ESTACIONES', desc: 'jamón york, alcachofas, aceitunas y champiñones', price: '14,00 €', allergens: [1, 7, 14] },
   { name: 'CARBONARA', desc: 'nata y beicon', price: '13,00 €', allergens: [1, 7] },
   { name: 'GAMBERETTI', desc: 'gambas y ajo', price: '14,00 €', allergens: [1, 4, 7] },
