@@ -4,19 +4,19 @@ import { AllergenBadges } from '../components/AllergenBadge'
 
 const ternera = [
   { name: 'ENTRECOT DE TERNERA', price: '18,00 €', allergens: [] },
-  { name: 'BROCHETA', desc: 'tomate, cebolla, pimiento y beicon', price: '15,00 €', allergens: [] },
+  { name: 'BROCHETA', desc: 'cebolla y pimiento', price: '15,00 €', allergens: [] },
 ]
 
 const cerdo = [
   { name: 'COSTILLAR CON SALSA BARBACOA', price: '16,00 €', allergens: [7, 8, 14] },
   { name: 'SECRETO', price: '16,00 €', allergens: [] },
   { name: 'SOLOMILLO ACOMPAÑADO DE UNA DE NUESTRAS SALSAS', price: '15,00 €', allergens: [7] },
-  { name: 'BROCHETA', desc: 'tomate, cebolla, pimiento y beicon', price: '13,50 €', allergens: [] },
+  { name: 'BROCHETA', desc: 'cebolla y pimiento', price: '13,50 €', allergens: [] },
 ]
 
 const pollo = [
   { name: 'PECHUGA ACOMPAÑADA (CONTRAMUSLO) CON UNA DE NUESTRAS SALSAS', price: '11,50 €', allergens: [7] },
-  { name: 'BROCHETA', desc: 'tomate, cebolla, pimiento y beicon', price: '13,50 €', allergens: [] },
+  { name: 'BROCHETA', desc: 'cebolla, pimiento y beicon', price: '13,50 €', allergens: [] },
 ]
 
 const parrilladas = [
